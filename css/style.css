@@ -2,5 +2,25 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: wheat;
+    background-color: rgb(255, 248, 236);
+}
+
+body{
+    width: 100%;
+    main{
+        width: 50%;
+        /* la classe cp est l'input et la classe ville est le select*/
+        .cp, .ville{
+            width: 50%;
+            border-radius: 5px;
+            margin: 10px;
+            border: none;
+            box-shadow: 1px 2px 3px gray;
+            transition: 0.25s ease-in-out;
+        }
+        .cp:hover, .ville:hover{
+            scale: 1.02;
+            background-color: rgb(220, 245, 210);
+        }
+    }
 }

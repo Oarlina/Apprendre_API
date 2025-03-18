@@ -7,8 +7,21 @@
     <title>APi Geo V2</title>
 </head>
 <body>
-    
-
-    <script src="js/script.js"></script>
+    <main>
+        <h1>API Geo Adresse</h1>
+        <!-- 
+        API = Application Porgramming interface
+        Une API :
+        - Est un ensemble de règles, de protocoles et de définitions
+        - Permet la communication entre différentes applications logicielles
+        - peut avoir deux types :
+            * publique (elle peut etre utilisé par des développeurs externes pour construire des applications tierce)
+            * privée ( destiné à un usage interne au sein d'une organisation pour faciliter la communication et le partage de données)
+         -->
+        <input type="text" class="cp" name="codepostal" placeholder="Saisir un code postal ...">
+        <select name="ville" class="ville" id ="ville"></select>
+    </main>
+    <!-- defer permet de charger le script a la fin du chargement du document -->
+    <script src="js/script.js" defer></script> 
 </body>
 </html>
