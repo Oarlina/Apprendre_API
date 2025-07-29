@@ -28,9 +28,10 @@ L’objectif était d’apprendre à consommer une **API de géolocalisation** p
 
 ## ▶️ Exemple d’utilisation
   
-Utilisateur entre : 33000
-→ Résultat affiché : Bordeaux
- 
+Utilisateur entre : 68720  
+→ Résultat affiché :   
+ <img width="517" height="386" alt="image" src="https://github.com/user-attachments/assets/d99d9004-83fb-41eb-88e2-0b1fd3f85e7a" />
+
 ## 👤 Auteur
 Ce projet à été réalisé par Rachel Marquant.
 N'hésitez pas à ouvrir une issue ou à me contacter pour toute suggestion ou question.
